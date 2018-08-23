@@ -25,3 +25,4 @@ test/data/
 # Gradle files
 /.gradle/
 /build/
+history.txt
