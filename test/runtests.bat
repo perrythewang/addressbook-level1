@@ -35,4 +35,11 @@ java -classpath ..\bin seedu.addressbook.AddressBook < input.txt >> actual.txt
 REM compare the output to the expected output
 FC actual.txt expected.txt
 
+REM run the program, feed commands from input2.txt file and redirect the output to the actual2.txt
+type NUL > actual2.txt
+java -classpath ..\bin seedu.addressbook.AddressBook < input2.txt >> actual2.txt
+
+REM compare the output to the expected output
+FC actual2.txt expected2.txt
+
 TIMEOUT /T 10
